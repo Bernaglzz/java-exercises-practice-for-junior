@@ -1,0 +1,44 @@
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        
+        /*En un editor de texto indica si las siguientes asignaciones son correctas o no,
+        en caso de ser incorrectos explica el motivo:
+
+        Declaración de variables:		Asiganción de variables:*/
+
+        int precio;
+        precio = 35.0;
+        /*No sería correcto, ya que si queremos convertir un número grande a uno más pequeño
+        deberíamos especificarlo de la siguiente forma: int precio = (int) 35.0;*/
+
+        double precio;
+        precio = 6;
+        /*Si seria correcto*/
+
+        int texto;
+        texto = "hola";
+        /*No sería correcto, estamos declarando un numero entero y escribiendo texto en la
+        variable.*/
+
+        float precio;
+        precio = 34.56f;
+        /*Si es correcto.*/
+
+        double tasa;
+        tasa = precio * 0.07
+        /*Si es correcto.*/
+
+        int pago;
+        pago = 50;
+        /*Si es correcto.*/
+
+        double cambio;
+        cambio = pago - precio - tasa;
+        /*Tendríamos que ultilizar la variable precio float para que sea correcto ya que las
+        demás están definidas de forma incorrecta.*/
+
+
+    }
+}

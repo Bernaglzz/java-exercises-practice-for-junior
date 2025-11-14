@@ -1,0 +1,19 @@
+En un editor de textos evalúa las siguientes expresiones lógicas, suponiendo x con valor 7:
+
+(true) && (3 > 4) => true && false = false
+
+(true) && (x > 4) => true && true = true
+
+x != 3  => 7 != 3 => true
+
+(x > 0) || (x < 0) => true || false = true
+
+25 > 20 && 13 > 5 => true && true = true
+
+10 + 4 < 15 - 3 || 2 * 5 + 1 > 14 - 2 * 2 =>
+10 + 4 < 15 - 3 || 10 + 1 > 14 - 4 =>
+14 < 12 || 11 > 10 =>
+false || true => true 
+
+4 * 2 <= 8 || 2 * 2 < 5 && 4 > 3 + 1 => true
+en la primera parte (8 <=8) al ser true ya es todo true

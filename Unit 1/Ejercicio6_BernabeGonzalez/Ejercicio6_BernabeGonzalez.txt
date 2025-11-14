@@ -1,0 +1,13 @@
+boolean t = true;
+boolean f = false;
+System.out.println("! " + (t &!f) + " " + f);
+
+Cuando aparece la variable t se aplica "true"
+
+Cuando aparece la variable f se aplica "false"
+
+A esto se le aplica la función de Print en la que aparecerá en pantalla una
+exclamación "! ". A esta se le suma la función (t & !f): (true & true(!f= contrario false).
+Y por último se concatena de esta manera: ("! " + (true & true) + " " + false) ==
+			 		  ("! " + true + " " + false)
+					  
